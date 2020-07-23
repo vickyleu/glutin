@@ -22,7 +22,7 @@ winit = { git = "https://github.com/dvc94ch/winit", branch = "android" }
 
 [target.'cfg(target_os = "android")'.dependencies]
 android_glue = { git = "https://github.com/rust-windowing/android-rs-glue" }
-android-ndk = { git = "https://github.com/rust-windowing/android-ndk-rs" }
+ndk = { git = "https://github.com/rust-windowing/android-ndk-rs" }
 glutin_egl_sys = { version = "0.1.4", path = "../glutin_egl_sys" }
 parking_lot = "0.9"
 
